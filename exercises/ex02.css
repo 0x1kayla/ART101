@@ -1,5 +1,19 @@
-p{color:rgb(229, 130, 146); font-size:xx-large;}
+p{color:rgb(229, 130, 146); font-size:xx-large; font-weight:bold;}
+
+p strong {font-weight: normal;}
 
 li { text-align: center;}
 
 html { font-family: "Butterfly Kids"; background-color: lightblue;}
+
+
+/*select all html tags that have a class highlight_01*/
+.highlight_01 {background-color:aquamarine;}
+
+.highlight_02 {background-color:blueviolet;}
+
+.highlight_03 {background-color:rgb(255, 80, 168);}
+
+#nayeon-small {width:50px;}
+#nayeon-medium {width:100px;}
+#nayeon-huge {width:150px;}
