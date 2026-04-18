@@ -1,0 +1,16 @@
+body {
+    background: #f7ddf2;
+    padding: 50px;
+}
+
+h1,
+h2,
+h3 {
+    color: #422d05;
+    font-family: sans-serif;
+}
+
+
+img {
+    width: 200px;
+}

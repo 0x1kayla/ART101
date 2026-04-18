@@ -17,3 +17,8 @@ html { font-family: "Butterfly Kids"; background-color: lightblue;}
 #nayeon-small {width:50px;}
 #nayeon-medium {width:100px;}
 #nayeon-huge {width:150px;}
+
+
+.test-div{background: lemonchiffon; margin: 30px; padding: 40px;}
+
+.my-flex { display: flex;}
