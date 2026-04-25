@@ -1,5 +1,5 @@
 body {
-    background: #f7ddf2;
+    background: #fdedfa;
     padding: 50px;
 }
 
@@ -7,10 +7,78 @@ h1,
 h2,
 h3 {
     color: #422d05;
-    font-family: sans-serif;
+    font-family: Butterfly Kids;
 }
 
 
 img {
-    width: 200px;
+    width: 300px;
+
+}
+
+#page {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background: rgb(227, 238, 253);
+    padding: 30px;
+}
+
+
+.top-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+
+
+#introduction {
+    background: #fff7e8;
+    padding: 20px;
+    border-left: 6px solid #422d05;
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 90%;
+    line-height: 1.5;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 50%;
+}
+
+
+.navigation {
+    background: #fff7e8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: rgb(192, 218, 253);
+    font-weight: lighter;
 }

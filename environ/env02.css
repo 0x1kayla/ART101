@@ -24,3 +24,29 @@ p
 }
 
 
+#intro {
+border-bottom: 3px solid #1d1184
+
+}
+
+.main-zone {
+    display: flex;
+    gap: 50px;
+    align-items:center
+    margin: 40px;
+}
+
+#relax {
+border-top: 3px solid #1d1184
+
+}
+
+li { text-align: center;
+color:rgb(0, 195, 255);
+}
+.location {
+    display: flex;
+    gap: 300px;
+    
+
+}
