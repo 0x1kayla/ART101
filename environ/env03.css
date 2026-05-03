@@ -1,0 +1,61 @@
+body {
+        background-color:rgb(221, 243, 255);
+         padding: 50px;
+    }
+
+h1 
+{
+    color: rgb(16, 16, 94);
+}
+
+img {
+    width: 300px;
+}
+
+#beach-huge {width:500px;}
+
+p{color:rgb(11, 29, 109); font-size:large; font-weight:bold;}
+
+.highlight_01 {background-color:rgb(253, 251, 221);}
+
+p 
+{ 
+    text-align: center;
+}
+
+
+#intro {
+border-bottom: 3px solid #1d1184
+
+}
+
+.main-zone {
+    display: flex;
+    gap: 50px;
+    align-items:center
+    margin: 40px;
+}
+
+#relax {
+border-top: 3px solid #1d1184
+
+}
+
+li { text-align: center;
+color:rgb(0, 195, 255);
+}
+
+.location {
+    display: flex;
+    gap: 300px;
+}
+
+.btn1 {
+ background-color: #007bff; /* Blue background */
+    color: white;              /* White text */
+    padding: 10px 20px;        /* Spacing around text */
+    border: none;              /* Remove default border */
+    border-radius: 8px;        /* Rounded corners */
+    font-size: 16px;           /* Text size */
+    cursor: pointer;           /* Changes mouse to a hand on hover */
+  }
