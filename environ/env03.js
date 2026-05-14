@@ -17,20 +17,20 @@ $("#needy-button").click(function () {
     let arrayPosition = count - 1;  
     
     let currentMood = buttonCreature.moods[arrayPosition];
-}
+});
 
 
 function askNumber(whatNumber) {
-    let userNumber = prompt("Guess 1-10?");
+    let userNumber = prompt("Take a dip?");
 
     if (userNumber == whatNumber) {
-        $("#output").html("You got it!");
+        $("#output").html("watch the waves!");
     }
     else {
-        $("#output").html("Noooooope");
+        $("#output").html("Land Ho! stay and dry.");
     }
 }
 
-$("#good-button").click(function () {
-    askNumber(5);
+$("#cute-button").click(function () {
+    askNumber("yes");
 });
